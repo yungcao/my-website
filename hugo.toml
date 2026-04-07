@@ -19,3 +19,32 @@ theme = 'hugo-arcana'
     name = "文章"
     url = "/posts/"
     weight = 20
+
+[[menu.main]]
+    name = "長照開發"
+    url = "/agetech/"
+    weight = 10
+
+[[menu.main]]
+    name = "技術經驗庫"
+    identifier = "experience"
+    url = "/experience/"
+    weight = 20
+
+# 子選單設定 (讓讀者可以直接選 RMA 或 Power)
+[[menu.main]]
+    name = "RMA 實戰"
+    parent = "experience"
+    url = "/experience/rma/"
+    weight = 1
+
+[[menu.main]]
+    name = "電力電子"
+    parent = "experience"
+    url = "/experience/power/"
+    weight = 2
+
+[[menu.main]]
+    name = "我的實驗室"
+    url = "/lab/"
+    weight = 30
