@@ -17,7 +17,12 @@ theme = 'hugo-arcana'
     url = "/"
     weight = 10
 
-  [[menu.main]]
+ [[menu.main]]
+    identifier = "about"
+    name = "關於我們"
+    url = "/about/"
+    weight = 15  # 放 15 會排在首頁 (10) 之後，長照開發 (20) 之前
+ [[menu.main]]
     identifier = "agetech"
     name = "長照開發"
     url = "/agetech/"
