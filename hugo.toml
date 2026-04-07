@@ -1,50 +1,61 @@
 baseURL = 'https://eziots.com/'
-languageCode = 'en-us'
-title = 'EZIOTS - Arcana Test'
+languageCode = 'zh-tw'
+title = 'EZIOTS WEB DRAFT'
 theme = 'hugo-arcana'
 
 [params]
-  # Arcana 的特色參數（可以先留空，或參考範例）
   description = "我的第一個 Arcana 網站"
   author = "Yung"
 
+# --- 所有的選單都統一放在這個 [menu] 下面 ---
 [menu]
+
+  # 第一級選單 (按照 weight 排序：10, 20, 30, 40...)
   [[menu.main]]
     identifier = "home"
     name = "首頁"
     url = "/"
     weight = 10
-  [[menu.main]]
-    identifier = "posts"
-    name = "文章"
-    url = "/posts/"
-    weight = 20
 
-[[menu.main]]
+  [[menu.main]]
+    identifier = "agetech"
     name = "長照開發"
     url = "/agetech/"
-    weight = 10
-
-[[menu.main]]
-    name = "技術經驗庫"
-    identifier = "experience"
-    url = "/experience/"
     weight = 20
 
-# 子選單設定 (讓讀者可以直接選 RMA 或 Power)
-[[menu.main]]
+  [[menu.main]]
+    identifier = "experience"
+    name = "技術經驗庫"
+    url = "/experience/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "services"
+    name = "服務項目"
+    url = "/services/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "技術日誌"
+    url = "/posts/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "lab"
+    name = "我的實驗室"
+    url = "/lab/"
+    weight = 60
+
+  # --- 子選單 (利用 parent 對應到上面 identifier = "experience" 的項目) ---
+  [[menu.main]]
     name = "RMA 實戰"
     parent = "experience"
     url = "/experience/rma/"
     weight = 1
 
-[[menu.main]]
+  [[menu.main]]
     name = "電力電子"
     parent = "experience"
     url = "/experience/power/"
     weight = 2
-
-[[menu.main]]
-    name = "我的實驗室"
-    url = "/lab/"
-    weight = 30
