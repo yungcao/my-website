@@ -1,4 +1,21 @@
 baseURL = 'https://eziots.com/'
 languageCode = 'en-us'
-title = 'EZIOTS First Website For Test'
-theme = 'ananke'
+title = 'EZIOTS - Arcana Test'
+theme = 'hugo-arcana'
+
+[params]
+  # Arcana 的特色參數（可以先留空，或參考範例）
+  description = "我的第一個 Arcana 網站"
+  author = "Yung"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首頁"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 20
