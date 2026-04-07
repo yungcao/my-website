@@ -8,9 +8,6 @@
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2026-04-07T18:01:32+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/agetech/</loc>
-    <lastmod>2026-04-07T18:01:32+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/experience/</loc>
     <lastmod>2026-04-07T18:01:32+08:00</lastmod>
   </url><url>
@@ -19,5 +16,7 @@
     <loc>http://localhost:1313/posts/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/agetech/</loc>
   </url>
 </urlset>
