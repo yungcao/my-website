@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>電力電子技術 on EZIOTS WEB DRAFT</title>
+    <link>http://localhost:1313/experience/power/</link>
+    <description>Recent content in 電力電子技術 on EZIOTS WEB DRAFT</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <atom:link href="http://localhost:1313/experience/power/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
