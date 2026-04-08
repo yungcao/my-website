@@ -1,6 +1,32 @@
-+++
-date = '2026-04-06T15:59:55+08:00'
-draft = true
-title = 'EZIOTS First Post For Test '
-+++
+---
+
+
+
+title: "我的實驗室"
+
+
+
+description: "第一篇文章"
+
+
+
+date: 2026-04-07
+
+
+
+draft: false
+
+
+
+---
+
+
+
+
+
+
+
+\\# 這裡是你的 HTML 或內容...
+
+
 

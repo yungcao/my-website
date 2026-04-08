@@ -6,6 +6,8 @@ theme = 'hugo-arcana'
 [params]
   description = "我的第一個 Arcana 網站"
   author = "Yung"
+  show_home_content = true
+
 
 # --- 所有的選單都統一放在這個 [menu] 下面 ---
 [menu]
